@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<a href="home.php" class="btn-voltar">&#8592;</a>
+<a href="gerenciamento.php" class="btn-voltar">&#8592;</a>
 
 <div class="container">
 

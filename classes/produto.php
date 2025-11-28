@@ -15,7 +15,6 @@ class Produto
 
     public function cadastrarProduto($nome, $marca, $descricao, $valor, $img)
     {
-        // Validação básica
         if(empty($nome) || empty($marca) || empty($valor)) {
             return false;
         }
@@ -34,5 +33,10 @@ class Produto
         $sql->execute();
         return true;
     }
+
+    public function getPdo() {
+        return $this->pdo;
+    }
 }
+
 ?>

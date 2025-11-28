@@ -33,13 +33,11 @@
             $senha = $_POST['senha'];
             $confsenha = addslashes($_POST['Confsenha']);
 
-            //Verificar se todos os campos estão preenchidos
             if(!empty($nome) && !empty($estado) && !empty($email) && !empty($senha))
             {
                 $usuario->conectar("ctrl-store","localhost", "root", "");
                 if($usuario->msgErro == "")
                 {
-                    echo "conectou";
                     if($senha == $confsenha)
                     {
                         if($usuario->cadastrarUsuario($nome,$estado,$email, $senha)){
@@ -82,7 +80,7 @@
     ?>
     
 </body>
-<a href="home.php" class="btn-voltar">
+<a href="gerenciamento.php" class="btn-voltar">
     &#8592;
 </a>
 </html>

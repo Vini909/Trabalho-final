@@ -24,7 +24,7 @@
                     <a href="" class="nav-link">Produtos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="cadastro.php" class="nav-link">Login</a>
+                    <a href="login.php" class="nav-link">Login</a>
                 </li>
             </ul>
         </nav> 

@@ -37,5 +37,12 @@ class Usuario
             return true;
         }
     }
+
+
+    public function listarUsuarios()
+    {
+        $sql = $this->pdo->query("SELECT * FROM usuarios ORDER BY id_usuario DESC");
+        return $sql->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 ?>
