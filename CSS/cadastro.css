@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1E1E1E;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 380px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #bbbbbb;
+}
+
+input[type="submit"] {
+    background: #007BFF;
+    color: #ffffff;
+    width: 140px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+input[type="submit"]:hover {
+    background: #0e6ed6;
+}
+
+a {
+    color: #4db8ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-voltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-voltar:hover {
+    background-color: #555;
+}
+
+.upload-container {
+    width: 150px;
+    height: 90px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 15px auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid #444;
+}
+
+.upload-container input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.icon-camera {
+    width: 40px;
+}
