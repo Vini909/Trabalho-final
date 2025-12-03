@@ -1,7 +1,7 @@
 header{
     display: flex;
     height: 90px;
-    background-color: rgba(0, 58, 87, 1);
+    background-color: rgb(26 88 22);
     width: 100%;
 }
 #navbar{
@@ -24,7 +24,6 @@ i{
     list-style: none;
 }
 .nav-item{
-    /* background-color: red; */
     padding: 10px;
 }
 .nav-link{

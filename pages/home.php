@@ -51,7 +51,7 @@
                 
             </div>
             <div class="banner">
-                <img src="../imgs/ps5.png" alt="Imagem Principal da Loja">
+                <img src="../imgs/xbox360.png" alt="Imagem Principal da Loja">
             </div>
         </section>
     </main>
@@ -136,7 +136,7 @@
     <footer>
         <div class="footer-itens">
             <span class="copyright">
-                &copy Elionai2025
+                &copy Vitin Do Grau 2025
             </span>
             <div class="social-media-buttons">
                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>

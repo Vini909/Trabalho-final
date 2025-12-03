@@ -42,7 +42,7 @@
 }
 .card-basket i:hover{
     cursor: pointer;
-    color: rgba(0, 117, 175, 1);
+    color: rgb(26 88 22);
 }
 .card-imagem{
     width: 300px;

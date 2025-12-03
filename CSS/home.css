@@ -1,8 +1,8 @@
 @import url('Produtos.css');
 @import url('footer.css');
 :root{
-    --color-primary-1: rgba(0, 58, 87, 1);
-    --color-primary-2: rgba(0, 117, 175, 1);
+    --color-primary-1: rgb(26 88 22);
+    --color-primary-2: rgb(38, 129, 32);
 
 
     --color-neutra-1:#1d1d1d;
@@ -58,7 +58,7 @@ body{
     color: white;
 }
 .cta .title span{
-    color: rgba(0, 117, 175, 1);
+    color: rgb(26 88 22);
 }
 .cta .descricao{
     font-size: 1.2rem;
@@ -82,7 +82,7 @@ body{
 .banner img{
     display: flex;
     margin: auto;
-    width: 1000px;
+    width: 39%;
 }
 .section-subtitle{
     text-align: center;
