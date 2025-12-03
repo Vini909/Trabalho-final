@@ -59,7 +59,7 @@ h1 {
 .btn-entrar {
     display: inline-block;
     padding: 10px 25px;
-    background-color: #008CBA;
+    background-color: rgb(26 88 22);
     color: white;
     border-radius: 8px;
     text-align: center;
@@ -69,7 +69,7 @@ h1 {
     width: 150px;
 }
 .btn-entrar:hover {
-    background-color: #0075a3;
+    background-color: rgb(38, 129, 32);
 }
 .btn-voltar {
     position: absolute;
